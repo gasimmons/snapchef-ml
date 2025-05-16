@@ -1,0 +1,33 @@
+# Python virtual environment
+.venv/
+venv/
+
+# VSCode, Jupyter, system files
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# Dataset and cache files
+models/recipe_gen_models/data/*.csv
+models/recipe_gen_models/data/*.json
+models/recipe_gen_models/data/*.parquet
+.cache/
+.kaggle/
+
+# Checkpoints and model files
+*.pt
+*.pth
+*.ckpt
+models/**/checkpoints/
+models/**/outputs/
+
+# Logs
+*.log
+logs/
+wandb/
+
