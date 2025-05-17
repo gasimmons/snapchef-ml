@@ -31,3 +31,4 @@ models/**/outputs/
 logs/
 wandb/
 
+models/recipe_gen_models/data/recipenlg.csv
