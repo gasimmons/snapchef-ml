@@ -1,8 +1,10 @@
-batch_size: 32
-lr: 1e-4
+project: recipe-generation
+model: LSTM
 epochs: 5
-model:
-  embed_dim: 256
-  hidden_dim: 512
-  vocab_size: 5000
+batch_size: 32
+learning_rate: 1e-4
+embed_dim: 256
+hidden_dim: 512
+vocab_size: 5000
+
 
